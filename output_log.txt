@@ -7,7 +7,7 @@ Direct3D:
     VRAM:     2038 MB
     Driver:   27.20.14501.28009
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.547 seconds
+- Completed reload, in  0.289 seconds
 OnLevelWasLoaded was found on GameMap
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
@@ -23,7 +23,7 @@ Add a delegate to SceneManager.sceneLoaded instead to get notifications after sc
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.719900 ms
+UnloadTime: 1.116000 ms
 Graphics tier changed to High
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -148,7 +148,7 @@ Restored language code 'ZH'
 
 
 Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 3556.
-Total: 1.963000 ms (FindLiveObjects: 0.434400 ms CreateObjectMapping: 0.368000 ms MarkObjects: 1.137800 ms  DeleteObjects: 0.022400 ms)
+Total: 3.084000 ms (FindLiveObjects: 0.350300 ms CreateObjectMapping: 0.219100 ms MarkObjects: 2.488400 ms  DeleteObjects: 0.025600 ms)
 
 WARNING: Shader Unsupported: 'Sprites/Lit' - Pass '' has no vertex shader
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
@@ -156,7 +156,7 @@ Didn't need to wait for PlayerPrefs load.
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-UnloadTime: 4.398100 ms
+UnloadTime: 5.295400 ms
 DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
  
 (Filename:  Line: 485)
@@ -173,7 +173,7 @@ Game controller set to None.
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-pd.maxHealth: 5 pd.maxHealthBase: 5
+pd.maxHealth: 7 pd.maxHealthBase: 7
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -183,7 +183,7 @@ pd.maxHealth: 5 pd.maxHealthBase: 5
 
 
 Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 44946.
-Total: 145.759800 ms (FindLiveObjects: 5.314700 ms CreateObjectMapping: 3.566000 ms MarkObjects: 136.784100 ms  DeleteObjects: 0.094400 ms)
+Total: 147.490900 ms (FindLiveObjects: 3.648400 ms CreateObjectMapping: 2.517800 ms MarkObjects: 141.235600 ms  DeleteObjects: 0.088200 ms)
 
 Making UI menu lean.
  
@@ -229,15 +229,27 @@ AddEventHandlerComponent: PlayMakerFixedUpdate
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
+FSM not Preprocessed: Stag : npc_control
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Stag : Stag Control
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Station Bell : Stag Bell
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
 FSM not Preprocessed: RestBench : Bench Control
- 
-(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Mantis : Mantis
- 
-(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Gate : FSM
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -245,47 +257,71 @@ Deferring level start (marked as manual).
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-FSM not Preprocessed: Corpse Mantis(Clone) : Corpse Mantis
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 180 unused Assets to reduce memory usage. Loaded Objects now: 47793.
+Total: 198.611800 ms (FindLiveObjects: 4.470600 ms CreateObjectMapping: 3.505900 ms MarkObjects: 188.205300 ms  DeleteObjects: 2.429200 ms)
+
+Could not find FSM: up_color
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-FSM not Preprocessed: Opened : FSM
+New binding added for openInventory: E
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-FSM not Preprocessed: Inspect Region : inspect
+New binding added for Dream Nail: N
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-FSM not Preprocessed: Shiny Item Charm : Shiny Control
+New binding added for Super Dash: N
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-FSM not Preprocessed: Opened : FSM
+New binding added for Dream Nail: U
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-FSM not Preprocessed: Shiny Item : Shiny Control
- 
-(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Inspect Region : inspect
- 
-(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Opened : FSM
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.128900 ms
+Deferring level start (marked as manual).
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 
-Unloading 181 unused Assets to reduce memory usage. Loaded Objects now: 47487.
-Total: 162.350400 ms (FindLiveObjects: 2.917700 ms CreateObjectMapping: 1.711100 ms MarkObjects: 156.578300 ms  DeleteObjects: 1.143000 ms)
+Unloading 379 unused Assets to reduce memory usage. Loaded Objects now: 53469.
+Total: 279.714400 ms (FindLiveObjects: 4.548000 ms CreateObjectMapping: 2.690900 ms MarkObjects: 269.990700 ms  DeleteObjects: 2.484100 ms)
 
-Persistent Bool Item - Couldn't reset value on FSM because it's missing.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.951100 ms
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 485)
+
+Performing automatic level start.
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Heap size set to 1024 megabytes
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Game controller set to None.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+pd.maxHealth: 7 pd.maxHealthBase: 7
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+pd.maxHealth: 5 pd.maxHealthBase: 5
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 408 unused Assets to reduce memory usage. Loaded Objects now: 46403.
+Total: 197.680600 ms (FindLiveObjects: 3.233000 ms CreateObjectMapping: 2.230300 ms MarkObjects: 188.135700 ms  DeleteObjects: 4.081200 ms)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1fc8 -> priority: 1 
-  Thread -> id: 29d4 -> priority: 1 
+  Thread -> id: b18 -> priority: 1 
+  Thread -> id: 1c98 -> priority: 1 
