@@ -7,7 +7,7 @@ Direct3D:
     VRAM:     2038 MB
     Driver:   27.20.14501.28009
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.289 seconds
+- Completed reload, in  0.330 seconds
 OnLevelWasLoaded was found on GameMap
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
@@ -23,7 +23,7 @@ Add a delegate to SceneManager.sceneLoaded instead to get notifications after sc
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.116000 ms
+UnloadTime: 0.848100 ms
 Graphics tier changed to High
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -148,7 +148,7 @@ Restored language code 'ZH'
 
 
 Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 3556.
-Total: 3.084000 ms (FindLiveObjects: 0.350300 ms CreateObjectMapping: 0.219100 ms MarkObjects: 2.488400 ms  DeleteObjects: 0.025600 ms)
+Total: 1.548400 ms (FindLiveObjects: 0.220100 ms CreateObjectMapping: 0.115000 ms MarkObjects: 1.200100 ms  DeleteObjects: 0.012900 ms)
 
 WARNING: Shader Unsupported: 'Sprites/Lit' - Pass '' has no vertex shader
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
@@ -156,7 +156,7 @@ Didn't need to wait for PlayerPrefs load.
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-UnloadTime: 5.295400 ms
+UnloadTime: 5.272100 ms
 DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
  
 (Filename:  Line: 485)
@@ -173,7 +173,7 @@ Game controller set to None.
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-pd.maxHealth: 7 pd.maxHealthBase: 7
+pd.maxHealth: 9 pd.maxHealthBase: 9
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -182,8 +182,8 @@ pd.maxHealth: 5 pd.maxHealthBase: 5
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 
-Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 44946.
-Total: 147.490900 ms (FindLiveObjects: 3.648400 ms CreateObjectMapping: 2.517800 ms MarkObjects: 141.235600 ms  DeleteObjects: 0.088200 ms)
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 44945.
+Total: 116.034600 ms (FindLiveObjects: 2.486300 ms CreateObjectMapping: 1.301900 ms MarkObjects: 112.164600 ms  DeleteObjects: 0.081400 ms)
 
 Making UI menu lean.
  
@@ -229,23 +229,7 @@ AddEventHandlerComponent: PlayMakerFixedUpdate
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-FSM not Preprocessed: Stag : npc_control
- 
-(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
- 
-(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Stag : Stag Control
- 
-(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-FSM not Preprocessed: Station Bell : Stag Bell
- 
-(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
+FSM not Preprocessed: Mines Exit Lift : Lift Control
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -253,47 +237,732 @@ FSM not Preprocessed: RestBench : Bench Control
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
+FSM not Preprocessed: Zote Final : npc_control
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Elderbug : npc_control
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Zote Town : npc_control
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Gravedigger NPC : npc_control
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Inspect Region : inspect_region
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Jiji Door : npc_control
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Elderbug Grimm : npc_control
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
 Deferring level start (marked as manual).
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
 
-Unloading 180 unused Assets to reduce memory usage. Loaded Objects now: 47793.
-Total: 198.611800 ms (FindLiveObjects: 4.470600 ms CreateObjectMapping: 3.505900 ms MarkObjects: 188.205300 ms  DeleteObjects: 2.429200 ms)
+Unloading 178 unused Assets to reduce memory usage. Loaded Objects now: 48857.
+Total: 145.838800 ms (FindLiveObjects: 3.048900 ms CreateObjectMapping: 1.356200 ms MarkObjects: 139.845800 ms  DeleteObjects: 1.587500 ms)
 
-Could not find FSM: up_color
+Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-New binding added for openInventory: E
+FSM not Preprocessed: Zombie Runner : Zombie Swipe
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-New binding added for Dream Nail: N
+FSM not Preprocessed: Inspect Region : inspect
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-New binding added for Super Dash: N
+FSM not Preprocessed: Shiny Item : Shiny Control
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-New binding added for Dream Nail: U
+FSM not Preprocessed: Zombie Runner 1 : Zombie Swipe
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deferring level start (marked as manual).
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Slash Impact R prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Slash Impact R prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Slash Impact R prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Strike Nail R prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Strike Nail R prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Slash Impact R prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Plat Dust prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deferring level start (marked as manual).
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Hornet Black Egg NPC : npc_control
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Quirrel : npc_control
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deferring level start (marked as manual).
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deferring level start (marked as manual).
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Zombie Runner : enemy_corpse
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Zombie Runner : Zombie Swipe
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Zombie Hornhead 1 : Zombie Swipe
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Zombie Runner 1 : Zombie Swipe
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deferring level start (marked as manual).
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deferring level start (marked as manual).
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Mines Lift : Lift Control
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Miner : npc_control
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deferring level start (marked as manual).
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deferring level start (marked as manual).
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Buzzer : flyer_receive_direction_msg
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Buzzer : chaser
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Breakable Pole 1 : Break Pole
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Buzzer 2 : flyer_receive_direction_msg
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Buzzer 2 : chaser
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Breakable Pole : Break Pole
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Buzzer 1 : flyer_receive_direction_msg
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Buzzer 1 : chaser
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Breakable Pole 2 : Break Pole
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Zombie Hornhead : Zombie Swipe
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deferring level start (marked as manual).
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deferring level start (marked as manual).
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Buzzer : flyer_receive_direction_msg
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Buzzer : chaser
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Breakable Pole 1 : Break Pole
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Buzzer 2 : flyer_receive_direction_msg
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Buzzer 2 : chaser
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Breakable Pole : Break Pole
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Buzzer 1 : flyer_receive_direction_msg
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Buzzer 1 : chaser
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Breakable Pole 2 : Break Pole
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Zombie Hornhead : Zombie Swipe
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deferring level start (marked as manual).
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Buzzer : flyer_receive_direction_msg
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Buzzer : chaser
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Break Wall 2 : FSM
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Spitter : flyer_receive_direction_msg
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Spitter : spitter
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Buzzer : flyer_receive_direction_msg
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Buzzer : chaser
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Spitter (1) : flyer_receive_direction_msg
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Spitter (1) : spitter
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deferring level start (marked as manual).
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Buzzer : flyer_receive_direction_msg
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Buzzer : chaser
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Breakable Pole 1 : Break Pole
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Buzzer 2 : flyer_receive_direction_msg
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Buzzer 2 : chaser
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Breakable Pole : Break Pole
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Buzzer 1 : flyer_receive_direction_msg
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Buzzer 1 : chaser
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Breakable Pole 2 : Break Pole
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Zombie Hornhead : Zombie Swipe
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deferring level start (marked as manual).
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deferring level start (marked as manual).
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Zombie Guard : Zombie Guard
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deferring level start (marked as manual).
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Corpse Zombie Guard(Clone) : FSM
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deferring level start (marked as manual).
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Zombie Guard : Zombie Guard
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deferring level start (marked as manual).
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Corpse Zombie Guard(Clone) : FSM
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool could not find a copy of Hit Puff Large, Instantiating a new one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Shockwave Wave(Clone) : shockwave
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Shockwave Wave(Clone) : shockwave
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool could not find a copy of Shockwave Spurt, Instantiating a new one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool could not find a copy of Shockwave Spurt L, Instantiating a new one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool has run out of Shockwave Spurt L prefabs, Instantiating an additional one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Hero Death : Hero Death Anim
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Object Pool attached to GlobalPool could not find a copy of Audio Player NoDestroy, Instantiating a new one.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Persistent Bool Item - Couldn't reset value on FSM because it's missing.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Corpse Nail Hero(Clone) : FSM
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Corpse Head(Clone) : Corpse Head Control
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Mines Exit Lift : Lift Control
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: RestBench : Bench Control
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Zote Final : npc_control
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Elderbug : npc_control
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Zote Town : npc_control
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Gravedigger NPC : npc_control
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Inspect Region : inspect_region
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Jiji Door : npc_control
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM not Preprocessed: Elderbug Grimm : npc_control
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Deferring level start (marked as manual).
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 1942 unused Assets to reduce memory usage. Loaded Objects now: 57187.
+Total: 206.643700 ms (FindLiveObjects: 3.022300 ms CreateObjectMapping: 1.714700 ms MarkObjects: 187.919900 ms  DeleteObjects: 13.986000 ms)
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 8.128900 ms
+UnloadTime: 6.966100 ms
 Deferring level start (marked as manual).
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 
-Unloading 379 unused Assets to reduce memory usage. Loaded Objects now: 53469.
-Total: 279.714400 ms (FindLiveObjects: 4.548000 ms CreateObjectMapping: 2.690900 ms MarkObjects: 269.990700 ms  DeleteObjects: 2.484100 ms)
+Unloading 877 unused Assets to reduce memory usage. Loaded Objects now: 52042.
+Total: 192.732700 ms (FindLiveObjects: 4.478700 ms CreateObjectMapping: 3.351200 ms MarkObjects: 177.631300 ms  DeleteObjects: 7.270900 ms)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.951100 ms
+UnloadTime: 1.989300 ms
 DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
  
 (Filename:  Line: 485)
@@ -310,7 +979,7 @@ Game controller set to None.
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-pd.maxHealth: 7 pd.maxHealthBase: 7
+pd.maxHealth: 9 pd.maxHealthBase: 9
  
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -319,9 +988,9 @@ pd.maxHealth: 5 pd.maxHealthBase: 5
 (Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 
-Unloading 408 unused Assets to reduce memory usage. Loaded Objects now: 46403.
-Total: 197.680600 ms (FindLiveObjects: 3.233000 ms CreateObjectMapping: 2.230300 ms MarkObjects: 188.135700 ms  DeleteObjects: 4.081200 ms)
+Unloading 455 unused Assets to reduce memory usage. Loaded Objects now: 46285.
+Total: 154.640500 ms (FindLiveObjects: 3.717500 ms CreateObjectMapping: 1.851000 ms MarkObjects: 144.704600 ms  DeleteObjects: 4.367100 ms)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: b18 -> priority: 1 
-  Thread -> id: 1c98 -> priority: 1 
+  Thread -> id: 7a8 -> priority: 1 
+  Thread -> id: 206c -> priority: 1 

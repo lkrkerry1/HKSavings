@@ -1,16 +1,16 @@
-Mono path[0] = 'D:/kerry/Games/Hollow.Knight.v1.5.78.11833/hollow_knight_Data/Managed'
-Mono config path = 'D:/kerry/Games/Hollow.Knight.v1.5.78.11833/MonoBleedingEdge/etc'
+Mono path[0] = 'E:/Hollow Knight v1.5/Hollow.Knight.v1.5.78.11833/hollow_knight_Data/Managed'
+Mono config path = 'E:/Hollow Knight v1.5/Hollow.Knight.v1.5.78.11833/MonoBleedingEdge/etc'
 Initialize engine version: 2020.2.2f1 (068178b99f32)
-[Subsystems] Discovering subsystems at path D:/kerry/Games/Hollow.Knight.v1.5.78.11833/hollow_knight_Data/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Hollow Knight v1.5/Hollow.Knight.v1.5.78.11833/hollow_knight_Data/UnitySubsystems
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
     Vendor:   
-    VRAM:     8018 MB
-    Driver:   31.0.15.5132
+    VRAM:     4038 MB
+    Driver:   24.20.100.6292
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.044 seconds
+- Completed reload, in  0.531 seconds
 OnLevelWasLoaded was found on GameMap
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
@@ -25,7 +25,7 @@ D3D11 device created for Microsoft Media Foundation video decoding.
 <RI> Initialized touch support.
 The class named 'ConfigManager' is abstract. The script class can't be abstract!
 
-UnloadTime: 8.549800 ms
+UnloadTime: 3.562400 ms
 Graphics tier changed to High
 
 Steam initializing
@@ -43,14 +43,14 @@ Restored language code 'ZH'
 
 
 Unloading 362 unused Assets to reduce memory usage. Loaded Objects now: 3824.
-Total: 1.167700 ms (FindLiveObjects: 0.137200 ms CreateObjectMapping: 0.083000 ms MarkObjects: 0.870900 ms  DeleteObjects: 0.076100 ms)
+Total: 2.247100 ms (FindLiveObjects: 0.271100 ms CreateObjectMapping: 0.261100 ms MarkObjects: 1.607800 ms  DeleteObjects: 0.106200 ms)
 
 Steam stats received.
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
 Didn't need to wait for PlayerPrefs load.
 
-UnloadTime: 2.641200 ms
+UnloadTime: 7.304000 ms
 DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
 
 Performing automatic level start.
@@ -62,8 +62,26 @@ pd.maxHealth: 9 pd.maxHealthBase: 9
 pd.maxHealth: 5 pd.maxHealthBase: 5
 
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 46227.
-Total: 70.745500 ms (FindLiveObjects: 1.591600 ms CreateObjectMapping: 0.642200 ms MarkObjects: 68.336900 ms  DeleteObjects: 0.173100 ms)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 46225.
+Total: 136.952400 ms (FindLiveObjects: 2.619300 ms CreateObjectMapping: 1.686300 ms MarkObjects: 132.373900 ms  DeleteObjects: 0.272500 ms)
+
+Joystick connected ("Controller (XBOX 360 For Windows)").
+
+Game controller Xbox 360 Controller attached
+
+Controller Type: Xbox360
+
+Active Gamepad Type: XBOX_360
+
+Game controller set to Xbox 360 Controller.
+
+Controller Type: Xbox360
+
+Active Gamepad Type: XBOX_360
+
+Subscribing to controller detection.
+
+Unsubscribing from controller detection.
 
 Making UI menu lean.
 
@@ -89,246 +107,516 @@ AddEventHandlerComponent: PlayMakerFixedUpdate
 
 AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Deferring level start (marked as manual).
-
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-
-Unloading 180 unused Assets to reduce memory usage. Loaded Objects now: 49303.
-Total: 80.574700 ms (FindLiveObjects: 1.649200 ms CreateObjectMapping: 0.842800 ms MarkObjects: 76.919300 ms  DeleteObjects: 1.162500 ms)
-
-Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
-
-Deferring level start (marked as manual).
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
 AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Object Pool attached to GlobalPool has run out of Strike Nail R prefabs, Instantiating an additional one.
+Deferring level start (marked as manual).
+
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+
+Unloading 192 unused Assets to reduce memory usage. Loaded Objects now: 49703.
+Total: 174.483900 ms (FindLiveObjects: 4.742700 ms CreateObjectMapping: 2.081500 ms MarkObjects: 166.263100 ms  DeleteObjects: 1.395600 ms)
+
+PlayOneShot was called with a null AudioClip.
+
+Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
+
+Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
 
 Object Pool attached to GlobalPool has run out of Slash Impact R prefabs, Instantiating an additional one.
 
-Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
+Object Pool attached to GlobalPool has run out of Strike Nail R prefabs, Instantiating an additional one.
 
-Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
+AddEventHandlerComponent: PlayMakerFixedUpdate
 
 Deferring level start (marked as manual).
 
+Bump Height: 0.002453327
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Deferring level start (marked as manual).
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionStay
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionStay
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionStay
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionStay
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionStay
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionStay
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionStay
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionStay
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionStay
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionStay
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionStay
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionStay
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerLateUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerLateUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerLateUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerLateUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerLateUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerLateUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerLateUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerLateUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerLateUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerLateUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerLateUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerLateUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerCollisionStay2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerLateUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+PlayOneShot was called with a null AudioClip.
+
 PlayOneShot was called with a null AudioClip.
 
 Object Pool attached to GlobalPool has run out of Audio Player Actor 2D prefabs, Instantiating an additional one.
 
 Object Pool attached to GlobalPool has run out of Audio Player Actor 2D prefabs, Instantiating an additional one.
 
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Object Pool attached to GlobalPool has run out of Ghost Hit Pt prefabs, Instantiating an additional one.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
+Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
 
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
+Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
 
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
+Object Pool attached to GlobalPool has run out of Sharp Shadow Impact prefabs, Instantiating an additional one.
 
 AddEventHandlerComponent: PlayMakerFixedUpdate
 
-AddEventHandlerComponent: PlayMakerFixedUpdate
+PlayOneShot was called with a null AudioClip.
 
 AddEventHandlerComponent: PlayMakerFixedUpdate
 
@@ -337,50 +625,6 @@ AddEventHandlerComponent: PlayMakerFixedUpdate
 PlayOneShot was called with a null AudioClip.
 
 AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-Object Pool attached to GlobalPool has run out of Ghost Hit Pt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Ghost Hit Pt prefabs, Instantiating an additional one.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Couldn't find current scene object!
 
 Object Pool attached to GlobalPool could not find a copy of Audio Player NoDestroy, Instantiating a new one.
 
@@ -388,2744 +632,6 @@ AddEventHandlerComponent: PlayMakerCollisionEnter2D
 
 AddEventHandlerComponent: PlayMakerFixedUpdate
 
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-
-Unloading 1086 unused Assets to reduce memory usage. Loaded Objects now: 58177.
-Total: 99.435400 ms (FindLiveObjects: 2.291600 ms CreateObjectMapping: 0.877300 ms MarkObjects: 94.716600 ms  DeleteObjects: 1.549200 ms)
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Could not find FSM: health_manager_enemy
-
-PlayOneShot was called with a null AudioClip.
-
-Object Pool attached to GlobalPool has run out of Shot HK Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shot HK Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shot HK Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shot HK Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shot HK Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shot HK Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shot HK Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shot HK Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shot HK Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shot HK Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shot HK Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shot HK Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shot HK Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shot HK Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shot HK Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shot HK Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shot HK Spurt prefabs, Instantiating an additional one.
-
-PlayOneShot was called with a null AudioClip.
-
-Object Pool attached to GlobalPool has run out of Shot HK Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shot HK Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shot HK Spurt prefabs, Instantiating an additional one.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-Deferring level start (marked as manual).
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-Couldn't find current scene object!
-
-Object Pool attached to GlobalPool has run out of Audio Player NoDestroy prefabs, Instantiating an additional one.
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-
-Unloading 1099 unused Assets to reduce memory usage. Loaded Objects now: 58727.
-Total: 102.440700 ms (FindLiveObjects: 2.385100 ms CreateObjectMapping: 0.794700 ms MarkObjects: 97.479500 ms  DeleteObjects: 1.780800 ms)
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Could not find FSM: health_manager_enemy
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-Deferring level start (marked as manual).
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-Couldn't find current scene object!
-
-Object Pool attached to GlobalPool has run out of Audio Player NoDestroy prefabs, Instantiating an additional one.
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-
-Unloading 1108 unused Assets to reduce memory usage. Loaded Objects now: 58916.
-Total: 101.224900 ms (FindLiveObjects: 2.652300 ms CreateObjectMapping: 0.878100 ms MarkObjects: 96.095300 ms  DeleteObjects: 1.598900 ms)
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Couldn't find current scene object!
-
-Object Pool attached to GlobalPool has run out of Audio Player NoDestroy prefabs, Instantiating an additional one.
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-
-Unloading 333 unused Assets to reduce memory usage. Loaded Objects now: 58960.
-Total: 104.125700 ms (FindLiveObjects: 2.577200 ms CreateObjectMapping: 0.841200 ms MarkObjects: 100.063300 ms  DeleteObjects: 0.643700 ms)
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Could not find FSM: health_manager_enemy
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-Deferring level start (marked as manual).
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Couldn't find current scene object!
-
-Object Pool attached to GlobalPool has run out of Audio Player NoDestroy prefabs, Instantiating an additional one.
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-
-Unloading 1082 unused Assets to reduce memory usage. Loaded Objects now: 59111.
-Total: 100.261000 ms (FindLiveObjects: 2.632200 ms CreateObjectMapping: 0.881600 ms MarkObjects: 95.146600 ms  DeleteObjects: 1.600000 ms)
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Could not find FSM: health_manager_enemy
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-Deferring level start (marked as manual).
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-Couldn't find current scene object!
-
-Object Pool attached to GlobalPool has run out of Audio Player NoDestroy prefabs, Instantiating an additional one.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-
-Unloading 1098 unused Assets to reduce memory usage. Loaded Objects now: 59265.
-Total: 104.304800 ms (FindLiveObjects: 2.385300 ms CreateObjectMapping: 0.866200 ms MarkObjects: 99.430600 ms  DeleteObjects: 1.622100 ms)
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Could not find FSM: health_manager_enemy
-
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-Deferring level start (marked as manual).
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Object Pool attached to GlobalPool has run out of Ghost Hit Pt prefabs, Instantiating an additional one.
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-Couldn't find current scene object!
-
-Object Pool attached to GlobalPool has run out of Audio Player NoDestroy prefabs, Instantiating an additional one.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-
-Unloading 1101 unused Assets to reduce memory usage. Loaded Objects now: 59596.
-Total: 106.970900 ms (FindLiveObjects: 2.425300 ms CreateObjectMapping: 0.893600 ms MarkObjects: 101.965300 ms  DeleteObjects: 1.686000 ms)
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Could not find FSM: health_manager_enemy
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-Deferring level start (marked as manual).
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-Couldn't find current scene object!
-
-Object Pool attached to GlobalPool has run out of Audio Player NoDestroy prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Radiant Beam R prefabs, Instantiating an additional one.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-
-Unloading 1093 unused Assets to reduce memory usage. Loaded Objects now: 59774.
-Total: 103.501800 ms (FindLiveObjects: 2.749300 ms CreateObjectMapping: 0.900900 ms MarkObjects: 98.220500 ms  DeleteObjects: 1.630600 ms)
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Could not find FSM: health_manager_enemy
-
-Object Pool attached to GlobalPool has run out of Nail Clash Effect prefabs, Instantiating an additional one.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-Deferring level start (marked as manual).
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Couldn't find current scene object!
-
-Object Pool attached to GlobalPool has run out of Audio Player NoDestroy prefabs, Instantiating an additional one.
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-
-Unloading 1099 unused Assets to reduce memory usage. Loaded Objects now: 59921.
-Total: 104.718300 ms (FindLiveObjects: 2.675100 ms CreateObjectMapping: 0.855900 ms MarkObjects: 99.608400 ms  DeleteObjects: 1.578600 ms)
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Could not find FSM: health_manager_enemy
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of particle_orange blood prefabs, Instantiating an additional one.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-Deferring level start (marked as manual).
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-Couldn't find current scene object!
-
-Object Pool attached to GlobalPool has run out of Audio Player NoDestroy prefabs, Instantiating an additional one.
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-
-Unloading 1083 unused Assets to reduce memory usage. Loaded Objects now: 60159.
-Total: 104.652900 ms (FindLiveObjects: 2.717500 ms CreateObjectMapping: 0.895600 ms MarkObjects: 99.327300 ms  DeleteObjects: 1.712100 ms)
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Couldn't find current scene object!
-
-Object Pool attached to GlobalPool has run out of Audio Player NoDestroy prefabs, Instantiating an additional one.
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-
-Unloading 331 unused Assets to reduce memory usage. Loaded Objects now: 60195.
-Total: 102.740200 ms (FindLiveObjects: 2.672400 ms CreateObjectMapping: 0.872200 ms MarkObjects: 98.579100 ms  DeleteObjects: 0.615000 ms)
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Could not find FSM: health_manager_enemy
-
-PlayOneShot was called with a null AudioClip.
-
-Object Pool attached to GlobalPool has run out of Shot HK Spurt prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of Shot HK Spurt prefabs, Instantiating an additional one.
-
-Couldn't find current scene object!
-
-Object Pool attached to GlobalPool has run out of Audio Player NoDestroy prefabs, Instantiating an additional one.
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-
-Unloading 329 unused Assets to reduce memory usage. Loaded Objects now: 60294.
-Total: 104.715200 ms (FindLiveObjects: 2.532900 ms CreateObjectMapping: 0.846200 ms MarkObjects: 100.687600 ms  DeleteObjects: 0.648000 ms)
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-Deferring level start (marked as manual).
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-Couldn't find current scene object!
-
-Object Pool attached to GlobalPool has run out of Audio Player NoDestroy prefabs, Instantiating an additional one.
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-
-Unloading 1103 unused Assets to reduce memory usage. Loaded Objects now: 60429.
-Total: 103.255200 ms (FindLiveObjects: 2.638900 ms CreateObjectMapping: 0.893600 ms MarkObjects: 98.149600 ms  DeleteObjects: 1.572800 ms)
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Could not find FSM: health_manager_enemy
-
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
-
-Object Pool attached to GlobalPool has run out of HK Plume prefabs, Instantiating an additional one.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-Deferring level start (marked as manual).
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-Couldn't find current scene object!
-
-Object Pool attached to GlobalPool has run out of Audio Player NoDestroy prefabs, Instantiating an additional one.
-
-AddEventHandlerComponent: PlayMakerCollisionEnter2D
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-
-Unloading 1092 unused Assets to reduce memory usage. Loaded Objects now: 60767.
-Total: 109.324400 ms (FindLiveObjects: 2.622800 ms CreateObjectMapping: 0.834500 ms MarkObjects: 104.421300 ms  DeleteObjects: 1.445200 ms)
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Deferring level start (marked as manual).
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Could not find FSM: health_manager_enemy
-
-PlayOneShot was called with a null AudioClip.
-
-PlayOneShot was called with a null AudioClip.
-
-Deferring level start (marked as manual).
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-PlayOneShot was called with a null AudioClip.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-Couldn't find current scene object!
-
-Object Pool attached to GlobalPool has run out of Audio Player NoDestroy prefabs, Instantiating an additional one.
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
 AddEventHandlerComponent: PlayMakerCollisionEnter2D
 
 AddEventHandlerComponent: PlayMakerFixedUpdate
@@ -3138,67 +644,14 @@ AddEventHandlerComponent: PlayMakerFixedUpdate
 
 AddEventHandlerComponent: PlayMakerFixedUpdate
 
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
-AddEventHandlerComponent: PlayMakerFixedUpdate
-
 Deferring level start (marked as manual).
 
-Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
 AddEventHandlerComponent: PlayMakerFixedUpdate
 
 
-Unloading 1079 unused Assets to reduce memory usage. Loaded Objects now: 60900.
-Total: 102.548000 ms (FindLiveObjects: 2.553400 ms CreateObjectMapping: 0.993700 ms MarkObjects: 97.530200 ms  DeleteObjects: 1.469900 ms)
+Unloading 2721 unused Assets to reduce memory usage. Loaded Objects now: 58276.
+Total: 222.900700 ms (FindLiveObjects: 8.294300 ms CreateObjectMapping: 4.674900 ms MarkObjects: 204.265000 ms  DeleteObjects: 5.666000 ms)
 
 PlayOneShot was called with a null AudioClip.
-
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.799300 ms
-Deferring level start (marked as manual).
-
-
-Unloading 186 unused Assets to reduce memory usage. Loaded Objects now: 58089.
-Total: 98.738600 ms (FindLiveObjects: 2.038100 ms CreateObjectMapping: 0.754800 ms MarkObjects: 95.448800 ms  DeleteObjects: 0.496400 ms)
-
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.221600 ms
-DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
-
-Performing automatic level start.
-
-Game controller set to None.
-
-pd.maxHealth: 9 pd.maxHealthBase: 9
-
-pd.maxHealth: 5 pd.maxHealthBase: 5
-
-
-Unloading 587 unused Assets to reduce memory usage. Loaded Objects now: 49591.
-Total: 83.911900 ms (FindLiveObjects: 1.729500 ms CreateObjectMapping: 0.641900 ms MarkObjects: 80.619400 ms  DeleteObjects: 0.919000 ms)
-
-Setting up 10 worker threads for Enlighten.
-  Thread -> id: c28 -> priority: 1 
-  Thread -> id: 3de0 -> priority: 1 
-  Thread -> id: 2aa8 -> priority: 1 
-  Thread -> id: dec -> priority: 1 
-  Thread -> id: 3fb4 -> priority: 1 
-  Thread -> id: 2840 -> priority: 1 
-  Thread -> id: 2488 -> priority: 1 
-  Thread -> id: 4198 -> priority: 1 
-  Thread -> id: 42cc -> priority: 1 
-  Thread -> id: 22b8 -> priority: 1 
-Shutting down Steam API.
 
